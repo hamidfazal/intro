@@ -28,7 +28,7 @@
         box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
       }
 
-      /* ===== NEW HEADER WITH PROFILE IMAGE ===== */
+      /* ===== HEADER WITH PROFILE IMAGE ===== */
       .header {
         display: flex;
         align-items: center;
@@ -46,12 +46,6 @@
         object-fit: cover;
         border: 3px solid #047857;
         background: #d1fae5;
-        /* 
-          🔽 REPLACE THE src BELOW WITH YOUR ACTUAL IMAGE URL 🔽
-          Example: src="https://your-domain.com/your-photo.jpg"
-          If you don't have a URL yet, this will show your initials (Hamid Fazal).
-        */
-        src: url('https://ui-avatars.com/api/?name=Hamid+Fazal&size=80&background=047857&color=fff&bold=true');
       }
       .header-text {
         flex: 1;
@@ -90,7 +84,7 @@
         color: #6b7280;
       }
 
-      /* --- rest of the CSS (unchanged from V2) --- */
+      /* --- rest of the CSS (unchanged) --- */
       .urdu {
         font-family: 'Noto Nastaliq Urdu', 'Alvi Nastaleeq', 'Jameel Noori Nastaleeq', sans-serif;
         font-size: 18px;
@@ -297,7 +291,10 @@
     </style>
   </head>
   <body>
+    <!-- ===== REACT ROOT ===== -->
     <div id="root"></div>
+
+    <!-- ===== REACT ENTRY ===== -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
